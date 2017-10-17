@@ -1,0 +1,23 @@
+{
+  "tilejson": "2.0.0",
+  "name": "Global Map Style",
+  "attribution": "",
+  "minzoom": 0,
+  "maxzoom": 20,
+  "bounds": [
+    79.07,
+    5.45,
+    82.57,
+    10.08
+  ],
+  "format": "png",
+  "type": "baselayer",
+  "tiles": [
+    "https://smellman.github.io/gmlkatiles/el/{z}/{x}/{y}.png"
+  ],
+  "center": [
+    80.82,
+    7.765000000000001,
+    9
+  ]
+}
