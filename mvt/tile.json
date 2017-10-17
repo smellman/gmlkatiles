@@ -1,0 +1,903 @@
+{
+  "tiles": [
+    "https://smellman.github.io/gmlkatiles/mvt/{z}/{x}/{y}.pbf"
+  ],
+  "name": "/data/lka.mbtiles",
+  "format": "pbf",
+  "basename": "lka.mbtiles",
+  "id": "lka",
+  "description": "/data/lka.mbtiles",
+  "version": "2",
+  "minzoom": 0,
+  "maxzoom": 14,
+  "center": [
+    79.991455,
+    9.633246,
+    14
+  ],
+  "bounds": [
+    79.519148,
+    5.919079,
+    81.877154,
+    9.834897
+  ],
+  "type": "overlay",
+  "vector_layers": [
+    {
+      "id": "airp",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "f_code": "String",
+        "iko": "String",
+        "ita": "String",
+        "nam": "String",
+        "soc": "String",
+        "use": "Number",
+        "zv3": "Number"
+      }
+    },
+    {
+      "id": "builtupp",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "f_code": "String",
+        "nam": "String",
+        "pop": "Number",
+        "soc": "String",
+        "ypc": "Number"
+      }
+    },
+    {
+      "id": "coastl",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "acc": "Number",
+        "exs": "Number",
+        "f_code": "String",
+        "soc": "String"
+      }
+    },
+    {
+      "id": "inwatera",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "f_code": "String",
+        "hyc": "Number",
+        "hyt": "Number",
+        "nam": "String",
+        "soc": "String"
+      }
+    },
+    {
+      "id": "polbnda",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "adm_code": "String",
+        "coc": "String",
+        "f_code": "String",
+        "laa": "String",
+        "nam": "String",
+        "pop": "Number",
+        "salb": "String",
+        "soc": "String",
+        "ypc": "Number"
+      }
+    },
+    {
+      "id": "polbndl",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "bst": "Number",
+        "f_code": "String",
+        "soc": "String",
+        "use": "Number"
+      }
+    },
+    {
+      "id": "raill",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "exs": "Number",
+        "f_code": "String",
+        "fco": "Number",
+        "loc": "Number",
+        "soc": "String"
+      }
+    },
+    {
+      "id": "riverl",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "f_code": "String",
+        "hyc": "Number",
+        "lit": "Number",
+        "nam": "String",
+        "soc": "String"
+      }
+    },
+    {
+      "id": "roadl",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "acc": "Number",
+        "exs": "Number",
+        "f_code": "String",
+        "loc": "Number",
+        "med": "Number",
+        "rst": "Number",
+        "rsu": "Number",
+        "rtt": "Number",
+        "soc": "String"
+      }
+    }
+  ],
+  "tilestats": {
+    "layerCount": 9,
+    "layers": [
+      {
+        "layer": "airp",
+        "count": 14,
+        "geometry": "Point",
+        "attributeCount": 7,
+        "attributes": [
+          {
+            "attribute": "f_code",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "GB005"
+            ]
+          },
+          {
+            "attribute": "iko",
+            "count": 3,
+            "type": "string",
+            "values": [
+              "UNK",
+              "VCBI",
+              "VCRI"
+            ]
+          },
+          {
+            "attribute": "ita",
+            "count": 4,
+            "type": "string",
+            "values": [
+              "CMB",
+              "HRI",
+              "RML",
+              "UNK"
+            ]
+          },
+          {
+            "attribute": "nam",
+            "count": 14,
+            "type": "string",
+            "values": [
+              "AMPARA",
+              "ANURADHAPURA",
+              "BANDARANAYAKE INTERNATIONAL AIRPORT COLOMBO",
+              "BATTICALOA",
+              "HINGURAKGODA",
+              "KOGGALA",
+              "MATTALA RAJAPAKSA INTERNATIONAL AIRPORT",
+              "PALALI",
+              "PALAVI",
+              "RATMALANA",
+              "SIGIRIYA",
+              "TRINCOMALEE",
+              "VAVUNIYA",
+              "WIRAWILA"
+            ]
+          },
+          {
+            "attribute": "soc",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "LKA"
+            ]
+          },
+          {
+            "attribute": "use",
+            "count": 2,
+            "type": "number",
+            "values": [
+              22,
+              23
+            ],
+            "min": 22,
+            "max": 23
+          },
+          {
+            "attribute": "zv3",
+            "count": 4,
+            "type": "number",
+            "values": [
+              -999,
+              15,
+              20,
+              60
+            ],
+            "min": -999,
+            "max": 60
+          }
+        ]
+      },
+      {
+        "layer": "builtupp",
+        "count": 14,
+        "geometry": "Point",
+        "attributeCount": 5,
+        "attributes": [
+          {
+            "attribute": "f_code",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "AL020"
+            ]
+          },
+          {
+            "attribute": "nam",
+            "count": 14,
+            "type": "string",
+            "values": [
+              "ALUTHGAMA",
+              "BADULLA",
+              "BATTICALOA",
+              "COLOMBO",
+              "GALLE",
+              "GAMPOLA",
+              "JAELA",
+              "JAFFNA",
+              "KALUTARA",
+              "KANDY",
+              "MATALE",
+              "MATARA",
+              "NEGOMBO",
+              "TRINCOMALEE"
+            ]
+          },
+          {
+            "attribute": "pop",
+            "count": 1,
+            "type": "number",
+            "values": [
+              -99999999
+            ],
+            "min": -99999999,
+            "max": -99999999
+          },
+          {
+            "attribute": "soc",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "LKA"
+            ]
+          },
+          {
+            "attribute": "ypc",
+            "count": 1,
+            "type": "number",
+            "values": [
+              0
+            ],
+            "min": 0,
+            "max": 0
+          }
+        ]
+      },
+      {
+        "layer": "coastl",
+        "count": 220,
+        "geometry": "LineString",
+        "attributeCount": 4,
+        "attributes": [
+          {
+            "attribute": "acc",
+            "count": 2,
+            "type": "number",
+            "values": [
+              1,
+              3
+            ],
+            "min": 1,
+            "max": 3
+          },
+          {
+            "attribute": "exs",
+            "count": 2,
+            "type": "number",
+            "values": [
+              1,
+              3
+            ],
+            "min": 1,
+            "max": 3
+          },
+          {
+            "attribute": "f_code",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "BA010"
+            ]
+          },
+          {
+            "attribute": "soc",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "LKA"
+            ]
+          }
+        ]
+      },
+      {
+        "layer": "inwatera",
+        "count": 119,
+        "geometry": "Polygon",
+        "attributeCount": 5,
+        "attributes": [
+          {
+            "attribute": "f_code",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "BH000"
+            ]
+          },
+          {
+            "attribute": "hyc",
+            "count": 2,
+            "type": "number",
+            "values": [
+              0,
+              8
+            ],
+            "min": 0,
+            "max": 8
+          },
+          {
+            "attribute": "hyt",
+            "count": 2,
+            "type": "number",
+            "values": [
+              0,
+              1
+            ],
+            "min": 0,
+            "max": 1
+          },
+          {
+            "attribute": "nam",
+            "count": 48,
+            "type": "string",
+            "values": [
+              "AKKARAYAN KULAM",
+              "CASTLEREAGH RESERVOIR",
+              "CHANDRIKA WEWA",
+              "GIANTS TANK",
+              "HORABORA WEWA",
+              "HURULU WEWA",
+              "IRAKKAMAM WEWA",
+              "IRANAYADU TANK",
+              "JAYANTHI WEWA",
+              "KALATUWAWA RESERVOIR",
+              "KALU GANGA",
+              "KANTALE TANK",
+              "KAUDULLA TANK",
+              "KELANI GANGA",
+              "KOGGALA LAKE",
+              "KOTMALE RESERVOIR",
+              "LABUGAMA RESERVOIR",
+              "LUNUGANWEHERA RESERVOIR",
+              "MADAMPE LAKE",
+              "MADURU OYA RESERVOIR",
+              "MAHA OYA",
+              "MAHAKANDARA WEWA",
+              "MAUSSAKELLE RESERVOIR",
+              "MINNERIYA TANK",
+              "MORA WEWA",
+              "NACHCHADUWA WEWA",
+              "NAMAL OYA RESERVOIR",
+              "NAVAKIRI ARU TANK",
+              "NUWARA WEWA",
+              "PADAWIYA TANK",
+              "PARAKRAMA SAMUDRA",
+              "PAVAT KULAM",
+              "PIMBURETTEWA TANK",
+              "RAJANGANA RESERVOIR",
+              "RANDENIGALA RESERVOIR",
+              "RATKINDA RESERVOIR",
+              "RIDIYAGAMA TANK",
+              "RUKAM TANK",
+              "SENANAYAKE SAMUDRA",
+              "TOBBOWA WEWA",
+              "ULHITIYA RESERVOIR",
+              "UNK",
+              "UNNICHCHAI TANK",
+              "VAVUNI KULAM",
+              "VICTORIA RESERVOIR",
+              "WAHALKADA TANK",
+              "WIRAWILA WEWA",
+              "YODA WEWA"
+            ]
+          },
+          {
+            "attribute": "soc",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "LKA"
+            ]
+          }
+        ]
+      },
+      {
+        "layer": "polbnda",
+        "count": 214,
+        "geometry": "Polygon",
+        "attributeCount": 9,
+        "attributes": [
+          {
+            "attribute": "adm_code",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "UNK"
+            ]
+          },
+          {
+            "attribute": "coc",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "LKA"
+            ]
+          },
+          {
+            "attribute": "f_code",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "FA001"
+            ]
+          },
+          {
+            "attribute": "laa",
+            "count": 25,
+            "type": "string",
+            "values": [
+              "Ampara",
+              "Anuradhapura",
+              "Badulla",
+              "Batticaloa",
+              "Colombo",
+              "Galle",
+              "Gampaha",
+              "Hambantota",
+              "Jaffna",
+              "Kalutara",
+              "Kandy",
+              "Kegalle",
+              "Kilinochchi",
+              "Kurunegala",
+              "Mannar",
+              "Matale",
+              "Matara",
+              "Moneragala",
+              "Mullaitivu",
+              "Nuwara Eliya",
+              "Polonnaruwa",
+              "Puttalam",
+              "Rathnapura",
+              "Trincomalee",
+              "Vavuniya"
+            ]
+          },
+          {
+            "attribute": "nam",
+            "count": 9,
+            "type": "string",
+            "values": [
+              "Central",
+              "Eastern",
+              "North Central",
+              "North Western",
+              "Northern",
+              "Sabaragamuwa",
+              "Southern",
+              "Uva",
+              "Western"
+            ]
+          },
+          {
+            "attribute": "pop",
+            "count": 1,
+            "type": "number",
+            "values": [
+              -99999999
+            ],
+            "min": -99999999,
+            "max": -99999999
+          },
+          {
+            "attribute": "salb",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "UNK"
+            ]
+          },
+          {
+            "attribute": "soc",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "LKA"
+            ]
+          },
+          {
+            "attribute": "ypc",
+            "count": 1,
+            "type": "number",
+            "values": [
+              0
+            ],
+            "min": 0,
+            "max": 0
+          }
+        ]
+      },
+      {
+        "layer": "polbndl",
+        "count": 58,
+        "geometry": "LineString",
+        "attributeCount": 4,
+        "attributes": [
+          {
+            "attribute": "bst",
+            "count": 1,
+            "type": "number",
+            "values": [
+              1
+            ],
+            "min": 1,
+            "max": 1
+          },
+          {
+            "attribute": "f_code",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "FA000"
+            ]
+          },
+          {
+            "attribute": "soc",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "LKA"
+            ]
+          },
+          {
+            "attribute": "use",
+            "count": 2,
+            "type": "number",
+            "values": [
+              26,
+              30
+            ],
+            "min": 26,
+            "max": 30
+          }
+        ]
+      },
+      {
+        "layer": "raill",
+        "count": 175,
+        "geometry": "LineString",
+        "attributeCount": 5,
+        "attributes": [
+          {
+            "attribute": "exs",
+            "count": 2,
+            "type": "number",
+            "values": [
+              2,
+              28
+            ],
+            "min": 2,
+            "max": 28
+          },
+          {
+            "attribute": "f_code",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "AN010"
+            ]
+          },
+          {
+            "attribute": "fco",
+            "count": 3,
+            "type": "number",
+            "values": [
+              0,
+              2,
+              3
+            ],
+            "min": 0,
+            "max": 3
+          },
+          {
+            "attribute": "loc",
+            "count": 2,
+            "type": "number",
+            "values": [
+              0,
+              25
+            ],
+            "min": 0,
+            "max": 25
+          },
+          {
+            "attribute": "soc",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "LKA"
+            ]
+          }
+        ]
+      },
+      {
+        "layer": "riverl",
+        "count": 1233,
+        "geometry": "LineString",
+        "attributeCount": 5,
+        "attributes": [
+          {
+            "attribute": "f_code",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "BH140"
+            ]
+          },
+          {
+            "attribute": "hyc",
+            "count": 2,
+            "type": "number",
+            "values": [
+              0,
+              8
+            ],
+            "min": 0,
+            "max": 8
+          },
+          {
+            "attribute": "lit",
+            "count": 2,
+            "type": "number",
+            "values": [
+              0,
+              2
+            ],
+            "min": 0,
+            "max": 2
+          },
+          {
+            "attribute": "nam",
+            "count": 73,
+            "type": "string",
+            "values": [
+              "AKKARAYAN KULAM",
+              "ANDELLA OYA",
+              "ARUVI ARU",
+              "ATTANAGALU OYA",
+              "BENTOTA GANGA",
+              "CASTLEREAGH RESERVOIR",
+              "CHANDRIKA WEWA",
+              "DEDURU OYA",
+              "GAL OYA",
+              "GIN GANGA",
+              "HEDA OYA",
+              "HURULU WEWA",
+              "IRANAYADU TANK",
+              "KACHIGAL ARA",
+              "KAL ARU",
+              "KALA OYA",
+              "KALU GANGA",
+              "KANAKARAYAN ARU",
+              "KANTALE TANK",
+              "KARAMBALAN OYA",
+              "KARANDA OYA",
+              "KAUDULLA TANK",
+              "KELANI GANGA",
+              "KIRAMA OYA",
+              "KIRINDI OYA",
+              "KOTMALE RESERVOIR",
+              "KUMBUKKAN OYA",
+              "KURUNDE ARA",
+              "LUNUGANWEHERA RESERVOIR",
+              "MA OYA",
+              "MADURU OYA",
+              "MADURU OYA RESERVOIR",
+              "MAHA OYA",
+              "MAHAKANDARA WEWA",
+              "MAHAWELI GANGA",
+              "MALALA OYA",
+              "MANDEKAL ARU",
+              "MAUSSAKELLE RESERVOIR",
+              "MENIK GANGA",
+              "MI OYA",
+              "MINNERIYA TANK",
+              "MODARAGAM ARU",
+              "MORA WEWA",
+              "MUNDENI ARU",
+              "NACHCHADUWA WEWA",
+              "NAVAKIRI ARU TANK",
+              "NAY ARU",
+              "NILWALA GANGA",
+              "PADAWIYA TANK",
+              "PALI ARU",
+              "PANKULAM ARU",
+              "PARANGI ARU",
+              "PAVAT KULAM",
+              "PER ARU",
+              "PIMBURETTEWA TANK",
+              "RAJANGANA RESERVOIR",
+              "RANDENIGALA RESERVOIR",
+              "RATHAMBALA OYA",
+              "RATKINDA RESERVOIR",
+              "RATMAL OYA",
+              "RUKAM TANK",
+              "SENANAYAKE SAMUDRA",
+              "TOBBOWA WEWA",
+              "ULHITIYA RESERVOIR",
+              "UNK",
+              "UNNICHCHAI TANK",
+              "URUBOKKA OYA",
+              "VAVUNI KULAM",
+              "VICTORIA RESERVOIR",
+              "WAHALKADA TANK",
+              "WALAWE GANGA",
+              "WILA OYA",
+              "YAN OYA"
+            ]
+          },
+          {
+            "attribute": "soc",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "LKA"
+            ]
+          }
+        ]
+      },
+      {
+        "layer": "roadl",
+        "count": 3934,
+        "geometry": "LineString",
+        "attributeCount": 9,
+        "attributes": [
+          {
+            "attribute": "acc",
+            "count": 1,
+            "type": "number",
+            "values": [
+              1
+            ],
+            "min": 1,
+            "max": 1
+          },
+          {
+            "attribute": "exs",
+            "count": 1,
+            "type": "number",
+            "values": [
+              28
+            ],
+            "min": 28,
+            "max": 28
+          },
+          {
+            "attribute": "f_code",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "AP030"
+            ]
+          },
+          {
+            "attribute": "loc",
+            "count": 2,
+            "type": "number",
+            "values": [
+              0,
+              25
+            ],
+            "min": 0,
+            "max": 25
+          },
+          {
+            "attribute": "med",
+            "count": 1,
+            "type": "number",
+            "values": [
+              0
+            ],
+            "min": 0,
+            "max": 0
+          },
+          {
+            "attribute": "rst",
+            "count": 1,
+            "type": "number",
+            "values": [
+              0
+            ],
+            "min": 0,
+            "max": 0
+          },
+          {
+            "attribute": "rsu",
+            "count": 1,
+            "type": "number",
+            "values": [
+              0
+            ],
+            "min": 0,
+            "max": 0
+          },
+          {
+            "attribute": "rtt",
+            "count": 4,
+            "type": "number",
+            "values": [
+              14,
+              15,
+              16,
+              999
+            ],
+            "min": 14,
+            "max": 999
+          },
+          {
+            "attribute": "soc",
+            "count": 1,
+            "type": "string",
+            "values": [
+              "LKA"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tilejson": "2.0.0"
+}
